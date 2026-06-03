@@ -144,6 +144,11 @@ class CinnamonFavoriteApplet extends Applet.IconApplet {
 
         this._on_panel_edit_mode_changed();
     }
+    
+    open_manager() {
+        GLib.spawn_command_line_async("nemo favorites:///");
+    }
+    
 }
 
 function main(metadata, orientation, panel_height, instance_id) {
