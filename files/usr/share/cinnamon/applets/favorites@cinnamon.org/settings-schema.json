@@ -7,12 +7,12 @@
     "type": "switch",
     "default" : false,
     "description" : "Display full paths in the list"
- }
+ },
  "manage-favorites": {
     "type": "button",
     "description": "Manage and remove favorites",
     "label": "Open Favorites Manager",
     "callback": "open_manager"
- },
+ }
 }
 
